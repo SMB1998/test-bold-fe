@@ -7,7 +7,7 @@ This project is a web application developed as part of a technical test for **Bo
 - [Used Technologies](#used-technologies)
 - [instalation](#instalation)
 - [build](#build)
-- [Uso](#uso)
+- [Demo](#demo)
 
 ## Used Technologies
 
