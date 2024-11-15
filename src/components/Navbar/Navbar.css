@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(to right, var(--color-blue), var(--color-red));
+}
+
+.navbar .left-section {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar .button {
+  display: flex;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .button:hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar .right-section {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.navbar .icon {
+  width: 24px;
+  height: 24px;
+}

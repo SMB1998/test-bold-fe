@@ -1,0 +1,19 @@
+.dashboard-header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+
+.left-card {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}

@@ -1,0 +1,34 @@
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-left: 20px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.tab {
+  background-color: transparent;
+  padding: 5px 20px;
+  margin: 5px;
+  color: var(--color-blue);
+
+  border-radius: 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  width: 100%;
+}
+
+.tab.selected {
+  background-color: #f4f4f4;
+  color: var(--color-blue);
+}
+
+.tab:hover {
+  background-color: #f4f4f4;
+  color: var(--color-blue);
+}

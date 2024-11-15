@@ -1,0 +1,95 @@
+.transactions-container {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  margin: 20px auto;
+  background: var(--color-light-gray);
+  border-radius: 8px;
+  min-height: 100vh;
+}
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  background: white;
+}
+
+.transactions-table tr {
+  height: 70px !important;
+}
+
+.transactions-table th {
+  color: var(--color-dark-gray);
+  border-bottom: 2px solid var(--color-background);
+  text-align: center;
+  padding: 16px;
+}
+
+.transactions-table th {
+  color: var(--color-dark-gray);
+}
+
+.transactions-table td {
+  background-color: white;
+  padding: 5px 16px;
+  border-bottom: 2px solid var(--color-gray);
+}
+
+.transactions-table tr:nth-child(even) {
+  border-left: 4px solid var(--color-gray);
+}
+
+.transactions-table tbody tr:nth-child(odd) {
+  border-left: 4px solid var(--color-blue);
+}
+
+.transactions-table tr:hover td {
+  cursor: pointer;
+  background-color: var(--color-light-gray);
+}
+
+.transactions-table img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.transactions-sales-type {
+  width: 40px;
+  position: relative;
+  top: -5px;
+}
+
+.transaction-col {
+  display: flex;
+  color: var(--color-blue) !important;
+}
+
+.transactions-payment-method {
+  display: flex;
+  width: 50px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.transactions-payment-method-number {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 0px auto;
+}
+
+.transactions-payment-deduction {
+  opacity: 0.6;
+  color: var(--color-gray);
+}
+
+.amount-column {
+  color: var(--color-blue);
+  text-align: left;
+}
+
+.transaction-column {
+  text-align: start !important;
+}

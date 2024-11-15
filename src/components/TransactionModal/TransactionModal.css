@@ -1,0 +1,91 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.side-modal {
+  background-color: white;
+  width: 30vw;
+  min-width: 400px;
+  height: 100%;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  border-radius: 16px;
+}
+
+.modal-overlay.active .side-modal {
+  transform: translateX(0);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.status-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.transaction-info .info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.transaction-info .info-row strong {
+  font-weight: bold;
+}
+
+.separator {
+  border-top: 2px solid var(--color-dark-gray);
+  margin: 20px 0;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.info-row strong {
+  font-weight: bold;
+}
+
+.sales-type-info {
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.transaction-header {
+  margin: 8vh 0px;
+}
