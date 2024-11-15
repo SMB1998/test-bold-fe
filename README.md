@@ -2,7 +2,7 @@
 
 This project is a web application developed as part of a technical test for **Bold**. It allows users to view and manage transactions from different payment methods interactively. The application retrieves and displays data related to the transactions and their status. This project was developed by **Santiago Muñoz B.**.
 
-## Tabla de contenidos
+## Content table
 
 - [Used Technologies](#used-technologies)
 - [instalation](#instalation)
