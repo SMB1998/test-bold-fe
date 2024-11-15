@@ -24,7 +24,7 @@ This project is a web application developed as part of a technical test for **Bo
 
 To install and run the aplication follow those steps:
 
-1. **Clonar el repositorio**.  
+1. **Clonar the repo**.  
     Clone the repo on your local machine using:
 
    ````bash
